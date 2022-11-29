@@ -341,7 +341,7 @@ func main() {
 	fmt.Printf("%c\n", 33)                       // => !
 	fmt.Printf("%x\n", 456)                      // => 1c8
 	fmt.Printf("%f\n", 78.9)                     // => 78.9
-	fmt.Printf("%e\n", 123400000.0)              // => 1.23E+08
+	fmt.Printf("%e\n", 123400000.0)              // => 1.23e+08
 	fmt.Printf("%E\n", 123400000.0)              // => 1.23E+08
 	fmt.Printf("%s\n", "\"string\"")             // => "string"
 	fmt.Printf("%q\n", "\"string\"")             // => "\"string\""
